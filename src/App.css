@@ -1,0 +1,14 @@
+.card {
+  width: 400px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid white;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
