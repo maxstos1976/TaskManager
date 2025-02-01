@@ -35,7 +35,7 @@ export default function App() {
       // Armazenar/persistir os dados no State
       setTasks(data);
     };
-    fetchTasks();
+    fetchTasks(); //Se nao quiser interagir com a API, é só comentar esta linha.
   }, []);
 
   function onTaskClick(taskId) {
